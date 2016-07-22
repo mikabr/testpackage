@@ -15,6 +15,8 @@ env:
   - ENCRYPTION_LABEL=OQtxL3IB0v9j
   - AUTHOR_EMAIL=mika.br@gmail.com
   - ENCRYPTION_LABEL=fkqoHAY1ZX7X
+  - AUTHOR_EMAIL=mika.br@gmail.com
+  - ENCRYPTION_LABEL=6KoAyUUoSLFw
 after_success:
 - chmod 755 .push_gh_pages.sh
 - ./.push_gh_pages.sh
