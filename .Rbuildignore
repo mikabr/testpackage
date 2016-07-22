@@ -1,3 +1,5 @@
 ^\.travis\.yml$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^\.push_gh_pages\.sh$
+^\.deploy_key\.enc$
