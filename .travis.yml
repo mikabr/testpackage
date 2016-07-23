@@ -3,24 +3,10 @@ sudo: no
 cache: packages
 env:
   global:
-  - AUTHOR_EMAIL=mika.br@gmail.com
-  - ENCRYPTION_LABEL=wGrBOa7eqbN3
-  - AUTHOR_EMAIL=mika.br@gmail.com
-  - ENCRYPTION_LABEL=rZIo6VyBNhqX
-  - AUTHOR_EMAIL=mika.br@gmail.com
-  - ENCRYPTION_LABEL=LDLRs9CbbM8G
-  - AUTHOR_EMAIL=mika.br@gmail.com
-  - ENCRYPTION_LABEL=eY8KCMPJAdPw
-  - AUTHOR_EMAIL=mika.br@gmail.com
-  - ENCRYPTION_LABEL=OQtxL3IB0v9j
-  - AUTHOR_EMAIL=mika.br@gmail.com
-  - ENCRYPTION_LABEL=fkqoHAY1ZX7X
-  - AUTHOR_EMAIL=mika.br@gmail.com
-  - ENCRYPTION_LABEL=6KoAyUUoSLFw
-  - AUTHOR_EMAIL=mika.br@gmail.com
-  - ENCRYPTION_LABEL=UgWAUdYpW2wV
   - AUTHOR_EMAIL=woof
   - ENCRYPTION_LABEL=tKVh3qoFG3qm
+  - AUTHOR_EMAIL=first.last@example.com
+  - ENCRYPTION_LABEL=fepkGIJpNFD3
 after_success:
 - chmod 755 .push_gh_pages.sh
 - ./.push_gh_pages.sh
