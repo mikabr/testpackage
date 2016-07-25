@@ -7,6 +7,8 @@ env:
   - ENCRYPTION_LABEL=tKVh3qoFG3qm
   - AUTHOR_EMAIL=first.last@example.com
   - ENCRYPTION_LABEL=fepkGIJpNFD3
+  - AUTHOR_EMAIL=first.last@example.com
+  - ENCRYPTION_LABEL=XhDtApBsRsch
 after_success:
 - chmod 755 .push_gh_pages.sh
 - ./.push_gh_pages.sh
