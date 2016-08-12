@@ -4,6 +4,6 @@ cache: packages
 env:
   global:
   - AUTHOR_EMAIL=first.last@example.com
-  - ENCRYPTION_LABEL=3CMXhFB4DRS0
+  - ENCRYPTION_LABEL=mjCVV2Dfiyxf
 after_success: chmod +x .push_gh_pages.sh && ./.push_gh_pages.sh
 
