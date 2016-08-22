@@ -3,3 +3,4 @@
 ^\.Rproj\.user$
 ^\.push_gh_pages\.sh$
 ^\.deploy_key\.enc$
+^\.deploy_key\.pub$
