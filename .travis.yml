@@ -1,9 +1,0 @@
-language: R
-sudo: no
-cache: packages
-env:
-  global:
-  - AUTHOR_EMAIL=first.last@example.com
-  - ENCRYPTION_LABEL=eHCTngS3sKUA
-after_success: chmod +x .push_gh_pages.sh && ./.push_gh_pages.sh
-
