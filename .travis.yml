@@ -1,10 +1,6 @@
 language: R
 sudo: no
 cache: packages
-r_github_packages:
-- ropensci/travis
-- ropensci/travis
-- ropensci/travis
-- ropenscilabs/travis
+r_github_packages: ropenscilabs/travis
 after_success: R -e 'travis::deploy()'
 
