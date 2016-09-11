@@ -2,5 +2,7 @@ language: R
 sudo: no
 cache: packages
 r_github_packages: ropenscilabs/travis
-after_success: R -e 'travis::deploy(tasks = c("task_test(), task_setup_repo(), task_push_vignettes()"))'
+after_success:
+- R -e 'travis::deploy(tasks = c("task_test(), task_setup_repo(), task_push_vignettes()"))'
+- R -e "travis::deploy(tasks = c('task_test()', 'task_setup_repo()', 'task_push_vignettes()'))"
 
